@@ -28,6 +28,9 @@ body {
 }
 .box3 {
     text-align: center;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr)
+    gap: 10px 20px;
 }
 .rond {
     border-radius: 100%;
@@ -127,5 +130,21 @@ h2 {
 } */
 
 .affiche {
-    text-align: left;
+    float: left; 
+}
+.movtitle {
+    grid-row: 1;
+}
+.mov1{
+    grid-row: 2;
+}
+.mov2{
+    grid-row: 3;
+}
+.mov3{
+    grid-row: 4;
+}
+
+.justify {
+    text-align: justify;
 }
