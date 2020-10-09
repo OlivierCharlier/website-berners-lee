@@ -1,0 +1,9 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box {
+    align-self: center;
+    background-color: grey;
+    width: 500px;
+}
